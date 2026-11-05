@@ -1,0 +1,18 @@
+{
+  "total_dispatches": 145,
+  "lives_saved": 141,
+  "average_response_time_seconds": 448,
+  "average_response_time_human": "7.4 minutes",
+  "tokens_issued": 6,
+  "active_blood_donors": 849,
+  "morth_award_claims_filed": 29,
+  "trauma_centers_connected": 14,
+  "uptime_percentage": 99.98,
+  "last_incident_timestamp": "Nov 05, 2026 • 10:49 AM",
+  "district_breakdown": {
+    "Chennai": 64,
+    "Chengalpattu / Tambaram": 38,
+    "Kanchipuram": 22,
+    "Tiruvallur": 18
+  }
+}

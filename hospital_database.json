@@ -1,0 +1,145 @@
+{
+  "incoming_cases": [
+    {
+      "case_id": "CASE-2026-5994",
+      "token_id": "GST-FAST-TEST",
+      "location": "Chennai",
+      "eta": "05:00",
+      "eta_minutes": 8,
+      "vitals": "GCS 13, BP 110/70, SPO2 96%",
+      "severity": "CRITICAL",
+      "ambulance_id": "TN-01-G-1088",
+      "assigned_bay": "Trauma Bay 1 (Red Zone)",
+      "status": "PREPARING_BAY",
+      "blood_required": "O-",
+      "blood_ready": "2 Units O- Allocated",
+      "paramedic_notes": "Bystander first-aid applied. Emergency road crash report",
+      "dispatched_at": "10:49 AM"
+    },
+    {
+      "case_id": "CASE-2026-5985",
+      "token_id": "GST-FAST-TEST",
+      "location": "Chennai",
+      "eta": "05:00",
+      "eta_minutes": 8,
+      "vitals": "GCS 13, BP 110/70, SPO2 96%",
+      "severity": "CRITICAL",
+      "ambulance_id": "TN-01-G-1088",
+      "assigned_bay": "Trauma Bay 1 (Red Zone)",
+      "status": "PREPARING_BAY",
+      "blood_required": "O-",
+      "blood_ready": "2 Units O- Allocated",
+      "paramedic_notes": "Bystander first-aid applied. Emergency road crash report",
+      "dispatched_at": "10:49 AM"
+    },
+    {
+      "case_id": "CASE-2026-5851",
+      "token_id": "GST-2026-1103-AUDIT",
+      "location": "Tambaram Sanatorium Flyover, Chennai",
+      "eta": "06:30",
+      "eta_minutes": 8,
+      "vitals": "GCS 13, BP 110/70, SPO2 96%",
+      "severity": "CRITICAL",
+      "ambulance_id": "TN-01-G-1088",
+      "assigned_bay": "Trauma Bay 1 (Red Zone)",
+      "status": "BAY_RESERVED",
+      "blood_required": "O-",
+      "blood_ready": "2 Units O- Allocated",
+      "paramedic_notes": "Bystander first-aid applied. Automated system test dispatch",
+      "dispatched_at": "10:47 AM"
+    },
+    {
+      "case_id": "CASE-2026-9081",
+      "token_id": "GST-2026-1103-4587",
+      "location": "Tambaram, Chennai (GST Road)",
+      "eta": "08:00",
+      "eta_minutes": 8,
+      "vitals": "GCS 13, BP 110/70, SPO2 96%",
+      "severity": "CRITICAL",
+      "ambulance_id": "TN-01-G-1088",
+      "assigned_bay": "Trauma Bay 1 (Red Zone)",
+      "status": "ADMITTED_TO_ICU",
+      "blood_required": "O-",
+      "blood_ready": "2 Units O- Rh-negative Allocated",
+      "paramedic_notes": "Neck stabilized with rigid C-collar. IV saline line running at 100ml/hr.",
+      "dispatched_at": "10:14 AM"
+    }
+  ],
+  "hospitals": [
+    {
+      "id": "HOSP-01",
+      "name": "Rajiv Gandhi Government General Hospital",
+      "type": "Level-1 Apex Trauma Center",
+      "area": "Park Town, Chennai",
+      "distance_km": 4.2,
+      "icu_trauma_beds_free": 12,
+      "blood_bank_status": "Active 24/7 (O-, O+, A+, B+ stocked)",
+      "phone": "044-25305000",
+      "coordinates": [
+        13.0827,
+        80.2707
+      ],
+      "surgeons_on_call": 4
+    },
+    {
+      "id": "HOSP-02",
+      "name": "Government Kilpauk Medical College Hospital",
+      "type": "Super Specialty Burns & Trauma Center",
+      "area": "Kilpauk, Chennai",
+      "distance_km": 6.8,
+      "icu_trauma_beds_free": 8,
+      "blood_bank_status": "Active 24/7",
+      "phone": "044-28364951",
+      "coordinates": [
+        13.0833,
+        80.2431
+      ],
+      "surgeons_on_call": 3
+    },
+    {
+      "id": "HOSP-03",
+      "name": "Tambaram Taluk Government Hospital",
+      "type": "Sub-District Trauma Emergency Center",
+      "area": "Chromepet / Tambaram, Chennai",
+      "distance_km": 1.8,
+      "icu_trauma_beds_free": 4,
+      "blood_bank_status": "Active 24/7",
+      "phone": "044-22418282",
+      "coordinates": [
+        12.9342,
+        80.1415
+      ],
+      "surgeons_on_call": 2
+    },
+    {
+      "id": "HOSP-04",
+      "name": "Government Royapettah Hospital",
+      "type": "Regional Trauma Center",
+      "area": "Royapettah, Chennai",
+      "distance_km": 5.1,
+      "icu_trauma_beds_free": 6,
+      "blood_bank_status": "Active 24/7",
+      "phone": "044-28483051",
+      "coordinates": [
+        13.0569,
+        80.2589
+      ],
+      "surgeons_on_call": 2
+    },
+    {
+      "id": "HOSP-05",
+      "name": "Stanley Medical College & Hospital",
+      "type": "North Chennai Trauma Care Center",
+      "area": "Old Jail Road, Royapuram, Chennai",
+      "distance_km": 7.5,
+      "icu_trauma_beds_free": 10,
+      "blood_bank_status": "Active 24/7",
+      "phone": "044-25281351",
+      "coordinates": [
+        13.1067,
+        80.2872
+      ],
+      "surgeons_on_call": 3
+    }
+  ]
+}

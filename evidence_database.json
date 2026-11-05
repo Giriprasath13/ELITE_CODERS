@@ -1,0 +1,74 @@
+[
+  {
+    "token_id": "GST-2026-1103-PHOTO-TEST",
+    "photo_filename": "GST-2026-1103-PHOTO-TEST.jpg",
+    "photo_url": "/uploads/GST-2026-1103-PHOTO-TEST.jpg",
+    "file_size_bytes": 10,
+    "timestamp": "Nov 05, 2026 • 10:47 AM",
+    "location": "Anna Nagar, Chennai",
+    "severity": "CRITICAL",
+    "notes": "Evidence vault test",
+    "sha256_hash": "SHA256:45AE705277879F7F01D778F7C95A065B",
+    "legal_status": "SECTION_134A_IMMUNITY_ACTIVE",
+    "database": "DEDICATED_EVIDENCE_VAULT_DB"
+  },
+  {
+    "token_id": "GST-TEST-AUTO",
+    "photo_filename": "GST-TEST-AUTO.jpg",
+    "photo_url": "/uploads/GST-TEST-AUTO.jpg",
+    "file_size_bytes": 0,
+    "timestamp": "Nov 05, 2026 • 10:20 AM",
+    "location": "Chennai Central",
+    "severity": "CRITICAL",
+    "notes": "Live accident photo uploaded via Good Samaritan 1-Tap Portal",
+    "rekognition": {
+      "confidence": 96.8,
+      "vehicle_impact_detected": true,
+      "hazard": "Obstacle Impact Verified",
+      "faces_redacted": true
+    },
+    "sha256_hash": "SHA256:7FA9312E8B1C49D6A0142EF38",
+    "legal_status": "SECTION_134A_IMMUNITY_ACTIVE",
+    "database": "DEDICATED_EVIDENCE_VAULT_DB",
+    "aws_s3_key": "s3://reapershield-accident-evidence-vault/GST-TEST-AUTO.jpg"
+  },
+  {
+    "token_id": "GST-2026-1103-TEST",
+    "photo_filename": "GST-2026-1103-TEST.jpg",
+    "photo_url": "/uploads/GST-2026-1103-TEST.jpg",
+    "file_size_bytes": 134,
+    "timestamp": "Nov 05, 2026 • 09:47 AM",
+    "location": "Tambaram Railway Station, Chennai",
+    "severity": "CRITICAL",
+    "notes": "Test accident photo upload",
+    "rekognition": {
+      "confidence": 96.8,
+      "vehicle_impact_detected": true,
+      "hazard": "Obstacle Impact Verified",
+      "faces_redacted": true
+    },
+    "sha256_hash": "SHA256:9650F149D622055C4B495E65E9148EBF",
+    "legal_status": "SECTION_134A_IMMUNITY_ACTIVE",
+    "database": "DEDICATED_EVIDENCE_VAULT_DB",
+    "aws_s3_key": "s3://reapershield-accident-evidence-vault/GST-2026-1103-TEST.jpg"
+  },
+  {
+    "token_id": "GST-2026-1103-4587",
+    "photo_filename": "GST-2026-1103-4587.jpg",
+    "photo_url": "/assets/haunted-road.png",
+    "file_size_bytes": 158430,
+    "timestamp": "Nov 3, 2026 • 02:15 PM",
+    "location": "Tambaram, Chennai (12.9249° N, 80.1481° E)",
+    "severity": "CRITICAL",
+    "notes": "Vehicle collision with obstacle at unlit roadside corridor. Victim conscious with compound tibial fracture.",
+    "rekognition": {
+      "confidence": 96.8,
+      "vehicle_impact_detected": true,
+      "hazard": "High Hazard: Unlit Cobblestone Obstacle",
+      "faces_redacted": true
+    },
+    "sha256_hash": "SHA256:7FA9312E8B1C49D6A0142EF38",
+    "legal_status": "SECTION_134A_IMMUNITY_ACTIVE",
+    "database": "DEDICATED_EVIDENCE_VAULT_DB"
+  }
+]

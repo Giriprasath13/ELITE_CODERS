@@ -1,0 +1,5 @@
+# ReaperShield - Python Dependencies
+# Core local server (server.py) runs on Python 3.8+ standard library with zero dependencies.
+# The following libraries are optional for AWS cloud deployment & automation:
+boto3>=1.34.0
+requests>=2.31.0
